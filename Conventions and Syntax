@@ -1,0 +1,7 @@
+Conventions are rules that are made in C# so that the readers all have the same layout and understanding of what code is in front of them 
+Syntax is the language that goes into C3, for example each sentence ends with a ;.
+Another convention is that you should write one line and one declaration per line
+Each "box" starts and ends with {} and each call will also start and end with ()
+There are boxes that can be within boxes that do a call or function. 
+A class is the bigger box that can contain a lot of functions, but there can be many classes as well.
+In all honesty I don't know if that makes sense but I think I am getting it. 
