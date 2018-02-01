@@ -22,3 +22,6 @@ void OnMouseDown()
 //these are all based on conditions, that is really what an if statement is for, 
 //here are soem more examples 
 //if(key) if(tempurature > 98) if(dog !=dog) if(Dog == Dog)
+
+//ELSE CLAUSE is a box, looks like "}else {" but it doesn't always look like that, 
+// you don't have to have an else clause with an if clause.  
