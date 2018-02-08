@@ -40,6 +40,25 @@ public class NewBehaviourScript : MonoBehaviour
         }// REMEMBER that = is assign and replace
 		C = A + B; // this would mean that C is now 20
 		C += A + B; // this would mean that C is now 40
+        if(A + B == C + A)
+        {
+            print(C);
+        }
+        if (C * B == A)
+        {
+            print(A);
+        }
+        if (C <= 6)
+        {
+            C--;
+        }
+        if(C * A == A);
+        {
+            print(A);
+        }
+        //Math opertators only deal with integers aka numbers
+        //it is basic algebra, but it can get tricky depending on what method you call first.
+        
     }
 
 }
