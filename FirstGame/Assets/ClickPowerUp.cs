@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class ClickPowerUp : MonoBehaviour {
 	public PowerUp MyPowerUp;
-	void OnMouseDown()
+	public void OnMouseDown()
 	{
-		if (MyPowerUp.PowerLevel >= 100)
-	{
-		print("I Have the Power!!!");
-	}	
+		//do work
+		MyPowerUp.Runpowerup();
 	}
+
 }
