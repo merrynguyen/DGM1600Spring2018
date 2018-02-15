@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +8,5 @@ public class Player : ScriptableObject {
 	public string PlayerName;
 	public int Score;
 	public int MP;
-	public int Time;
-	
 	
 }
