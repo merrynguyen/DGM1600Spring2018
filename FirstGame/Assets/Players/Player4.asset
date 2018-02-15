@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 729b460c2796dc449adf8fad17d25c76, type: 3}
   m_Name: Player4
   m_EditorClassIdentifier: 
-  PlayerName: 
-  Score: 0
-  MP: 0
+  PlayerName: Sherry
+  Score: 368
+  MP: 58
