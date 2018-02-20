@@ -9,6 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e4c640739b7fbc4a9d0d73e7cf74b85, type: 3}
-  m_Name: Ammp
+  m_Name: Ammo
   m_EditorClassIdentifier: 
   PowerLevel: 0
+  ExtraPower: 0
