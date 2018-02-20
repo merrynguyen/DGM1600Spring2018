@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Switch : MonoBehaviour {
 	public string UserName;
-
+	public int Intelligence;
+	//Using swtich statements are used to compare one component instead of using if statments because this is
+	//more efficient. 
 	// Use this for initialization
 	void Start () {
 		switch (UserName)
@@ -28,6 +30,36 @@ public class Switch : MonoBehaviour {
 				//do work
 			break;
 		}
-	}
+		switch (Intelligence)
+		{
+			case 10:
+			print("Why hello there good friend! Let me teach you about astrophysics!");
+			break;
+
+			case 9:
+			print("Hello Sir, let me help you with your bags.");
+			break;
+
+			case 8:
+			print("Hello Mister, will you help me with directions?");
+			break;
+
+			case 7:
+			print("Hello Friend, how are you this morning?");
+			break;
+
+			case 6:
+			print("Top of the mornin' to ya!");
+			break;
+
+			case 5:
+			print("Hi.");
+			break;
+
+			default;
+			print("Get out of my way idiot.");
+			break;
+		}
+	
 
 }
