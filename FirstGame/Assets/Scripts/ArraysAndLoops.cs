@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ArraysAndLoops : MonoBehaviour {
 	
-	public PowerUp[] PowerUp;
+	
 	public int[] HighScores;
 	public Player[] Players;
 	
