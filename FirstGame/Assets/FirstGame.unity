@@ -198,7 +198,6 @@ GameObject:
   - component: {fileID: 989924004}
   - component: {fileID: 989924003}
   - component: {fileID: 989924002}
-  - component: {fileID: 989924006}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -270,19 +269,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &989924006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 989924001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf44296e10d5584d9be36b19d7b0ad8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheIncredibles: {fileID: 0}
-  AddMember: {fileID: 0}
 --- !u!1 &1092987291
 GameObject:
   m_ObjectHideFlags: 0

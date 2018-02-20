@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ListsAndLoops : MonoBehaviour {
-
+	
 	public TheIncredibles TheIncredibles;
 	public Text AddMember;
 
@@ -13,6 +13,7 @@ public class ListsAndLoops : MonoBehaviour {
 		TheIncredibles.FamilyList.Add(AddMember.text);
 	}
 	
-	
+	//making these list is so you can create a different objects within one component.
+	//
 
 }
