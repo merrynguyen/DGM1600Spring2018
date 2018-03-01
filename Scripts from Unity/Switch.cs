@@ -56,10 +56,10 @@ public class Switch : MonoBehaviour {
 			print("Hi.");
 			break;
 
-			default;
+			default:
 			print("Get out of my way idiot.");
 			break;
 		}
 	
-
-}
+	}
+//}
