@@ -5,17 +5,29 @@ using UnityEngine;
 public class FunctionsWithParameters : MonoBehaviour 
 {
 
+	public int Health = 20;
+
 void OnTriggerEnter(Collider other)
 {
+	AddHealth(25);
+
 	print("Hit Something");
 	print(other);
 	
-	AddNumbers(14);
+	AddNumbers(14, 2);
+	PlayerData("Bob Belcher");
 }
-void AddNumbers (int a)
+void AddHealth (int newHealth)
 {
-	print(a =+ 10);
+	Health += newHealth;
 }
-
+void AddNumbers (int a, int b)
+{
+	print(a += b);
+}
+void PlayerData(string name)
+{
+	print("This player is " + name);
+}
 
 }

@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 350262665}
   - component: {fileID: 350262664}
   m_Layer: 0
-  m_Name: Monster Sphere
+  m_Name: PowerUpHealth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 1450443990}
   - component: {fileID: 1450443991}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -453,6 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e74d842f3b1514db7ec4a15022e247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 20
 --- !u!54 &1450443991
 Rigidbody:
   m_ObjectHideFlags: 0
