@@ -14,20 +14,27 @@ void OnTriggerEnter(Collider other)
 	print("Hit Something");
 	print(other);
 	
-	AddNumbers(14, 2);
+	AddNumbers(14, 2, 20, 40);
 	PlayerData("Bob Belcher");
+	
 }
 void AddHealth (int newHealth)
 {
 	Health += newHealth;
 }
+
 void AddNumbers (int a, int b)
 {
 	print(a += b);
 }
+
 void PlayerData(string name)
 {
 	print("This player is " + name);
+}
+void AddNumbers (int a, int b, int c)
+{
+	print(a + b + c);
 }
 
 }
