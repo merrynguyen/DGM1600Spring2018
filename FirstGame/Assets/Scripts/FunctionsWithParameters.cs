@@ -14,7 +14,7 @@ void OnTriggerEnter(Collider other)
 	print("Hit Something");
 	print(other);
 	
-	AddNumbers(14, 2, 20, 40);
+	AddNumbers(14, 2, 20);
 	PlayerData("Bob Belcher");
 	
 }
