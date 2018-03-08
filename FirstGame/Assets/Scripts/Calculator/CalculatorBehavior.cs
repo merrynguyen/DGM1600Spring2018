@@ -5,5 +5,14 @@ using UnityEngine.UI;
 
 public class CalculatorBehavior : MonoBehaviour {
 
+	public InputField Input1;
+	public InputField Input2;
+	public Text SolutionText;
+
 	public Calculation Calculation;
+
+	public void RunCalculation ()
+	{
+		SolutionText.text = Calculation.Calculate(Input1.text, Input2.text).ToString();
+	}
 }

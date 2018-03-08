@@ -4,9 +4,13 @@ using UnityEngine;
 
 [CreateAssetMenu]
 public class Calculation : ScriptableObject {
-	public int Calculate()
+
+
+	public int Calculate(string a, string b)
 	{
-		return 10;
+		int aNum = int.Parse(a);
+		int bNum = int.Parse(b);
+		return aNum + bNum;
 	}
 
 }
