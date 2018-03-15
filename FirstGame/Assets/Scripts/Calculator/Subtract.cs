@@ -4,10 +4,9 @@ using UnityEngine;
 
 [CreateAssetMenu]
 public class Subtract : Calculation {
-	public override float FinishCalculation()
+	public override string FinishCalculation()
 	{
-		return aNum - bNum;
+		return (aNum - bNum).ToString();
 	}
-
 
 }
