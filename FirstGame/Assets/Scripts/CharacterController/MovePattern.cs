@@ -9,12 +9,16 @@ public class MovePattern : ScriptableObject {
     public float gravity = 20.0F;
 	 private Vector3 moveDirection = Vector3.zero;
 
+   public InputBase InputX;
+   public InputBase InputY;
+   public InputBase InputZ;
+
 public void Move(CharacterController controller, Transform transform)
 
 {if (controller.isGrounded) {
-			moveDirection.x = Input.GetAxis("Horizontal");
-			moveDirection.y = 0;
-			moveDirection.z = Input.GetAxis("Vertical");
+			moveDirection.x = InputX.SetFloat();
+			moveDirection.y = InputY.SetFloat();
+			moveDirection.z = InputZ.SetFloat();
       moveDirection = transform.TransformDirection(moveDirection);
       moveDirection *= speed;
       if (Input.GetButton("Jump"))

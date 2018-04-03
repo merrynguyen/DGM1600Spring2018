@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3375693a32e3f314980a1a5f2d3ce1ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovePattern: {fileID: 11400000, guid: 70f157d1332b6164fa9d8d2aeeae271d, type: 2}
+  MovePattern: {fileID: 11400000, guid: c2d8a947c35a5964ebb41af365cb8c19, type: 2}
 --- !u!143 &2016748473
 CharacterController:
   m_ObjectHideFlags: 0

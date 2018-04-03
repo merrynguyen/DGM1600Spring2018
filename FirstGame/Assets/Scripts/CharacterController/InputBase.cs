@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class InputBase : ScriptableObject 
 {
-	public abstract float FloatInput(); 
+	public abstract float SetFloat(); 
 }
