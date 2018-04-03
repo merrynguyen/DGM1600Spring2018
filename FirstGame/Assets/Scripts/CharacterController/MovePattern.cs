@@ -15,13 +15,10 @@ public void Move(CharacterController controller, Transform transform)
 			moveDirection.x = Input.GetAxis("Horizontal");
 			moveDirection.y = 0;
 			moveDirection.z = Input.GetAxis("Vertical");
-			
-
-
-            moveDirection = transform.TransformDirection(moveDirection);
-            moveDirection *= speed;
-            if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed;
+      moveDirection = transform.TransformDirection(moveDirection);
+      moveDirection *= speed;
+      if (Input.GetButton("Jump"))
+        moveDirection.y = jumpSpeed;
             
         }
         moveDirection.y -= gravity * Time.deltaTime;
