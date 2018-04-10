@@ -9,6 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a1f503a902a9f24ba9949ffae01a5ae, type: 3}
-  m_Name: HighLevel
+  m_Name: AddJump
   m_EditorClassIdentifier: 
-  PowerLevel: 10
+  PowerLevel: 0
+  MovePattern: {fileID: 11400000, guid: a3817c019bf33084bb56c2d058d1ef36, type: 2}

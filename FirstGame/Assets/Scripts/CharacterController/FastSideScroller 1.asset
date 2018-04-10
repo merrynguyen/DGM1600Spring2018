@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c973f0d20334b904b9ba315e0a32ebe8, type: 3}
-  m_Name: SideScroller
+  m_Name: FastSideScroller 1
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 12
   jumpSpeed: 5
   gravity: 20
   InputX: {fileID: 11400000, guid: 245af22f39acd6c479eb4e49cddf3fbe, type: 2}

@@ -3,13 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Trigger : MonoBehaviour {
-
-	public PowerUp PowerUpTransfer;
-
+	
+	public PowerUp PowerUp;
+	Private MovePattern prevMovePattern;
 	private void OnTriggerEnter(Collider obj)
 	{
+		prevMovePattern = obj.GetComponent<MoveCharacter>().MovePattern;
+		obj.GetComponent<MoveCharacter>().MovePattern= PowerUp.MovePattern;
+		gameObject.SetActive(false);
+		}
 
-		obj.GetComponent<MoveCharacter>().MovePattern = PowerUpTransfer.Transfer();
-	}
-	
+		void RestoreMovePattern(MovePattern oldMovePattern)
+		{
+			
+		}
 }
