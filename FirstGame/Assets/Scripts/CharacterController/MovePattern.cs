@@ -12,6 +12,7 @@ public class MovePattern : ScriptableObject {
    public InputBase InputX;
    public InputBase InputY;
    public InputBase InputZ;
+   public InputBase InputRotateX, InputRotatey, InputRotatez;
 
 public void Move(CharacterController controller, Transform transform)
 

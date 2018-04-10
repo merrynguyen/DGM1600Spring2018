@@ -17,3 +17,6 @@ MonoBehaviour:
   InputX: {fileID: 11400000, guid: 245af22f39acd6c479eb4e49cddf3fbe, type: 2}
   InputY: {fileID: 11400000, guid: da7fc25847c38254bae918b66429b1f5, type: 2}
   InputZ: {fileID: 11400000, guid: bc96c7f9ea2041542b73f0070f961f22, type: 2}
+  InputRotateX: {fileID: 11400000, guid: da7fc25847c38254bae918b66429b1f5, type: 2}
+  InputRotatey: {fileID: 0}
+  InputRotatez: {fileID: 0}
