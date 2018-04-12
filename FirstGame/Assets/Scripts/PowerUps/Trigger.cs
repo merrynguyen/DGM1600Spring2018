@@ -6,6 +6,7 @@ public class Trigger : MonoBehaviour {
 	
 	public PowerUp PowerUp;
 	Private MovePattern prevMovePattern;
+	pricate float TimeToRestore = 2;
 	private void OnTriggerEnter(Collider obj)
 	{
 		prevMovePattern = obj.GetComponent<MoveCharacter>().MovePattern;
