@@ -1,21 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Trigger : MonoBehaviour {
-	
-	public PowerUp PowerUp;
-	Private MovePattern prevMovePattern;
-	pricate float TimeToRestore = 2;
+
+	public float PowerLevel = 0.2;
+	public Image HealthBar;
+	public PowerUp PowerUpTransfer;
+
+
+
 	private void OnTriggerEnter(Collider obj)
 	{
-		prevMovePattern = obj.GetComponent<MoveCharacter>().MovePattern;
-		obj.GetComponent<MoveCharacter>().MovePattern= PowerUp.MovePattern;
-		gameObject.SetActive(false);
-		}
+		HealthBar.fillAmount += PowerLevel
+		
+		if(HealthBar.fillAmount = 0)
 
-		void RestoreMovePattern(MovePattern oldMovePattern)
-		{
+		
+			obj.GetComponent<MoveCharacter>().MovePattern = PowerUpTransfer.MovePattern();
 			
 		}
 }
