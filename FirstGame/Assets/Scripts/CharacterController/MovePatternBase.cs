@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(filename = "MovePatternBase")]
-public class MovePatternBase : ScriptableObject {
+public class MovePatternBase : ScriptableObject 
+{
 
-	
 	public float speed = 6.0F;
 	public float gravity = 20.0F;
 	
@@ -17,5 +17,6 @@ public class MovePatternBase : ScriptableObject {
 	
 	public InputBase JumpInput;
 
-	public abstract void Move(CharacterController controller, Transform transform);
+	public abstract void Move(CharacterController controller, Transform transform);;
 }
+

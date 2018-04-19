@@ -5,20 +5,17 @@ using UnityEngine.UI;
 
 public class Trigger : MonoBehaviour {
 
-	public float PowerLevel = 0.2;
-	public Image HealthBar;
+
+
 	public PowerUp PowerUpTransfer;
-
-
 
 	private void OnTriggerEnter(Collider obj)
 	{
-		HealthBar.fillAmount += PowerLevel
-		
-		if(HealthBar.fillAmount = 0)
+		//if (obj.GetComponent<MoveCharacter>() != null) 
+			obj.GetComponent<MoveCharacter>().Player.MovePattern = PowerUpTransfer.Transfer();
 
-		
-			obj.GetComponent<MoveCharacter>().MovePattern = PowerUpTransfer.MovePattern();
-			
-		}
+			gameObject.SetActive(false);
+	}
 }
+
+

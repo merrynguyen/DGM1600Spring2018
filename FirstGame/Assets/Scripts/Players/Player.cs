@@ -5,4 +5,5 @@ using UnityEngine;
 public class Player : ScriptableObject 
 {
 	public int Health;
+	public MovePattern MovePattern;
 }
