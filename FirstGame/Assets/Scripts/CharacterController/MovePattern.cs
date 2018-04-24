@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName="MovePattern")]
 public class MovePattern : MovePatternBase {
   
-public override void Move(CharacterController controller, Transform transform)
+//public override void Move(CharacterController controller, Transform transform)
 	{
 		if (controller.isGrounded)
 		{

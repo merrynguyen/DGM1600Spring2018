@@ -17,6 +17,6 @@ public class MovePatternBase : ScriptableObject
 	
 	public InputBase JumpInput;
 
-	public abstract void Move(CharacterController controller, Transform transform);;
+	//public abstract void Move(CharacterController controller, Transform transform);
 }
 
